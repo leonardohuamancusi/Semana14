@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+<style>
+    #volver{
+        width: 200px;
+        display: inline;
+        border-radius: 6px;
+        color: white;
+        text-decoration: none;
+       background-color: green;
+       padding: 10px;
+    }
+</style>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Mi Blog Personal</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#acerca">Acerca de</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h2>Bienvenido a Mi Blog Personal</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam nulla aut inventore vero minus! Modi voluptatem expedita soluta, quidem aperiam totam dignissimos illo porro similique. A, eveniet. Dicta, quas tempore.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>Ultimas Entradas</h2>
+                <div class="blog-post">
+                    <h3>Titulo del Primer Articulo</h3>
+                    <p class="meta">Publicado el 1 de Enero de 2024</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, quasi ea. Esse maxime ipsum, dolorum, placeat a delectus non adipisci, expedita deserunt mollitia illum incidunt debitis. Odit cumque delectus consequatur!</p>
+                    <a href="entrada1.html" class="button">Leer Más</a>
+                    <hr>
+                </div>
+                <div class="blog-post">
+                    <h3>Titulo del Segundo Articulo</h3>
+                    <p class="meta">Publicado el 15 de Febrero de 202</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus incidunt nulla reiciendis dolorum illo doloremque, ipsam eligendi commodi dignissimos debitis veniam sunt odio delectus nisi. Adipisci ipsum unde laborum?</p>
+                    <a href="entrada2.html">Leer Más</a>
+                </div>
+            </div>
+        </section>
+
+<section id="Acerca">
+    <div class="container">
+        <h2>Contacto</h2>
+        <p>Puedes Contactar,e enviandorme un mensaje a través de este formulario:</p>
+        <form action="enviar.php" method="post">
+<input type="text" name="nombre" placeholder="Tu nombre" required>
+<input type="emai" name="emai" placeholder="Tu correo Electronico" required>
+<textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+<button type="submit">Enviar Mensaje</button>
+        </form>
+    </div>
+</section> 
+
+    </main>
+
+<footer>
+    <div class="container">
+        <p> copy;2024 - Todos los derechos reservados</p>
+        <a href="index.html" id="volver">volver</a>
+    </div>
+    
+</footer>
+<script src="script.js"></script>
+
+</body>
+</html>
